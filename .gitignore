@@ -1,0 +1,13 @@
+# build products that are regenerated
+.venv/
+art/work/
+art/**/__pycache__/
+driver/*.o
+driver/*.debug.efi
+driver/*.crash.efi
+driver/cat_anim_x64.efi
+# local experiments / test scratch
+build/
+build_*/
+test/work/
+*.img
